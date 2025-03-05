@@ -1,0 +1,130 @@
+body {
+    background-color: #000;
+    color: #0ff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    padding-top: 80px; /* Biar turun otomatis */
+}
+
+
+.navbar{
+background-color: #0ff;
+box-shadow: 0 0 15px #0ff, 0 0 30px #00f, 0 0 45px #00f;
+padding: 10px 0;
+position: fixed;
+width: 100%;
+top: 0;
+left: 0;
+z-index: 1000;
+}
+
+
+.navbar ul{
+    list-style-type: none;
+    background-color: #0ff;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-shadow: 0 0 5px #e4dfdf, 0 0 10px #fff, 0 0 20px #aaa;
+    transition: 0.3s;
+    font-weight: bold;
+
+}
+
+.navbar a:hover{
+    background-color: rgba(6, 179, 179, 0.2);
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
+
+}
+
+.navbar li{
+    float: left;
+}
+.neon-text {
+    font-size: 2.5em;
+    text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px #00f;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    color: #0ff;
+}
+
+section {
+    margin: 40px 20px;
+    padding: 20px;
+    border: 1px solid #0ff;
+    box-shadow: 0 0 10px #0ff;
+    border-radius: 10px;
+}
+
+.project {
+    margin: 10px auto;
+    padding: 15px;
+    border: 1px solid #00f;
+    background: rgba(0, 0, 255, 0.2);
+    border-radius: 8px;
+}
+
+footer {
+    padding-top: 250px;
+    font-size: 0.9em;
+    padding-bottom: 25px;
+    color: #0ff;
+}
+
+#Ama{
+    margin-left: 50px;
+    text-align: left;
+}
+
+#Ama2{
+    margin-left: 50px;
+    text-align: left;
+    font-size: 20px;
+}
+
+#img-index{
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+#li-index{
+    text-align: left;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.gambar img{
+    height: 400px;
+    width: 250px;
+    align-items: right;
+    border-radius: 50%;
+    border: solid;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.8); 
+    animation: glowing-index 1.5s infinite alternate;
+}
+
+@keyframes glowing-index {
+    0% { box-shadow: 0 0 5px rgba(0, 255, 255, 0.6); }
+    50% { box-shadow: 0 0 20px rgba(0, 255, 255, 1); }
+    100% { box-shadow: 0 0 5px rgba(0, 255, 255, 0.8); }
+}
+
+.img-contact img{
+    filter: drop-shadow(0 0 5px #87CEEB); /* baru ku tau bisa bikin kek outline2 gitu */
+} /* btw si 0 itu (Offset x) sedangkan yang ke 2 itu (Offset y) habis itu yang 5 px radius, habis itu warna.*/
+
