@@ -1,5 +1,3 @@
-# My-Portofolio
-This is my simple or basic portofolio website code source
-
-# How to run the project
+# About
+This is my simple or basic portofolio website code source. Such as things about me, my education, skills, and hobbies, also my contact.
 
